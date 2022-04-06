@@ -1,0 +1,59 @@
+*{
+    font-family: arial;
+}
+
+
+p{
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+.text{
+padding: 0;
+display: flex;
+justify-content: space-between;
+width: 90%;
+}
+
+
+.nada1{
+    background-color: #CF4545;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80%;
+    font-size: 25px;
+    color: white;
+}
+
+.nada2{
+    background-color: #753535;
+    padding: 10%;
+}
+
+
+.nada3{
+    background-color: #9F3D3D;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nada2 a img{
+   border-radius: 30px;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%)
+}
+
+.nada4{
+    background-color: white;
+    padding: 1%;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.text p a{
+    color: blue;
+    text-decoration: none;
+    text-decoration: underline;
+}

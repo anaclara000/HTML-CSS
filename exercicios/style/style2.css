@@ -1,0 +1,35 @@
+*{
+    font-family: arial;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  th{
+      font-size: 20px;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+
+  p{
+      padding-top: 0px;
+      font-size: 20px;
+  }
+
+  .text{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  }
+  .text p a{
+    color: blue;
+    text-decoration: none;
+    text-decoration: underline;
+}
