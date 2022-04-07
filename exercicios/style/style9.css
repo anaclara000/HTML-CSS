@@ -17,7 +17,66 @@ width: 90%;
 
 .fundo{
     height: 100vh;
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/fundo.webp);
     background-repeat: no-repeat;
 	background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.barra{
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: column;
+}
+
+.text1{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 20px;
+   align-items: center;
+}
+
+.text1 > span{
+    margin-left: 20px;
+    padding: 1px;
+   
+}
+
+.text1 a img{
+    height: 30px;
+    padding: 2px;
+    
+}
+
+.data{
+    margin-right: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.branco{
+    background-color: rgba(133, 131, 131, 0.767);
+    border-radius: 20px;
+    width: 50%;
+    height: 65px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: column;
+}
+
+.menu  a  img {
+    height: 60px;
+    align-items: center;
+    margin-left: 20px;
 }
