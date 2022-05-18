@@ -1,0 +1,16 @@
+*{
+    margin:0;
+}
+
+.nav-item{
+    font-size: 19px;
+}
+
+.container-fluid{
+    
+}
+
+.d-block{
+    width: 1800px;
+    height: 500px;
+}
